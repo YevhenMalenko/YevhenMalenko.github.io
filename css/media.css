@@ -1,0 +1,129 @@
+@media screen and (max-width: 992px) {
+	.menu-link {
+		display: block;
+	}
+	.advantage__description {
+		display: block;
+		margin: 0px auto 80px auto;
+		width: 65%;
+	}
+	.menu__description {
+		display: block;
+		margin: 0px auto 40px auto;
+		width: 75%;
+	}
+	.menu__item {
+		margin-bottom: 60px;
+	}
+	.menu__image {
+		width: 80%;
+	}
+	.sale__item {
+		display: block;
+		width: 100%;
+		padding-left: 0px;
+	}
+	.sales__image {
+		width: 100%
+	}
+	.contacts__container {
+		right: 8%
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		background: #005459 url(../img/bg10m.jpg) no-repeat top center;
+	}
+	.heading {
+		font-size: 60px;
+	}
+	.heading__wrapper { 
+		margin-top: 130px;
+		margin-bottom: 180px;
+	}
+	.sale__heading {
+		text-align: center;
+	}
+	.sale__descrription {
+		text-align: center;
+	}
+	.input__item {
+		width: 80%;
+	}
+	.subscribe .button {
+		margin-left:-20%;
+	}
+	.contacts__container {
+		position: static;
+		width: 90%;
+		margin: 0px auto;
+	}
+	.contacts__heading span {
+		left: 11%;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer .logo {
+		margin: 20px 0 10px 0;
+	}
+	.social {
+		margin: 20px 0 10px 0;
+	}
+	.overlay {
+	}
+	.popup {
+		width: 90%;
+		top:15px;
+		padding: 15px 20px;
+		height: 100vh;
+		overflow: scroll;
+	}
+	.popup__title {
+		font-size: 18px;
+	}
+	.booking__input {
+		width: 85%;
+		padding: 15px 10px 15px 30px;
+		margin-bottom: 0px;
+	}
+	.booking__form .button {
+		width: 85%;
+	}
+	.sale__item .button {
+		display: block;
+		margin:0px auto;
+		width: 65%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.main {
+		background: #005459 url(../img/bgm.jpg) no-repeat top center;
+	}
+	.heading__wrapper {
+		margin-top: 90px;
+	}
+	.input__item {
+		width: 80%;
+		margin-bottom: 35px;
+	}
+	.subscribe .button {
+		width: 80%;
+		margin:0px auto;
+	}
+}
+
+@media screen and (max-width: 485px) {
+	.heading {
+		font-size: 48px;
+	}
+	.heading__description {
+	font-size: 24px;
+	}
+	.sale__item .button {
+		width: 75%;
+	}
+}
